@@ -1,0 +1,177 @@
+<html lang="kr">
+	<head>
+		<meta charset="utf-8" />
+		<title>Welcome to Hanna's portfolio</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div style="display:none;">
+			<div id="horizontal" class="animationBox"></div>
+		</div>
+		<div id="water"></div>
+		<div id="viewport">
+			<img id="mountain" class="scroll" alt="TODO" src="images/mountain.png" />
+			<img id="smuge" class="smuge scroll" alt="TODO" src="images/tree_smuge.png" />
+			<img id="smuge2" class="smuge2 scroll" alt="TODO" src="images/tree_smuge2.png" />
+			<img id="tree" class="scroll" alt="TODO" src="images/tree_small.png" />
+			<div id="sunWrapper" class="scroll">
+				<a id="sun" class="pointer_click" href="https://github.com/91hannachung">
+					<p class="sun_index">소스코드<br /> 보러가기</p>
+				</a>
+			</div>
+			<div id="cloudWrapper" class="scroll" style="pointer-events:none;">
+				<img src="images/cloud.png" alt="TODO" style="position: absolute; left: 90vh; top: 26vh; width: 22vh; opacity:0.6;" />
+				<img src="images/cloud.png" alt="TODO" style="position: absolute; left: 68vh; top: 23vh; width: 25vh; opacity:0.6;" />
+				<img src="images/cloud.png" alt="TODO" style="opacity:0.8;position: absolute; left: 78vh; top: 20vh; width: 20vh;" />
+			</div>
+			<div id="waves">
+				<div id="wave1"></div>
+				<div id="wave2"></div>
+				<div id="wave3"></div>
+			</div>
+			<div id="birdWrapper" class="scroll">
+				<div id="tree_ani">
+					<img class="island" alt="TODO" src="images/island.png" style="position:absolute; left:340vh; top:-40vh; width:50vh;"/>
+					<img class="island_part" alt="TODO" src="images/island_part.png" style="position:absolute; left:340vh; top:-40vh; width:50vh;" />
+					<img id="sign"  class="pointer_click" alt="TODO" src="images/sign2.png" style="position:absolute;left:350vh; top:10vh; width:10vh; z-index:1;"/>
+					<div id="profile">
+						<img alt="TODO" src="images/profile.png" style="width:60vh;"/>
+					</div>
+				</div>
+				<div id="bird_parts">
+					<img class="torso" alt="TODO" src="images/bird_torso.png" style="position:absolute; left:360vh; top:-38vh; width:10vh;"/>
+					<img class="headL" alt="TODO" src="images/bird_headL.png" style="position:absolute; left:360vh; top:-38vh; width:10vh;"/>
+					<img class="headR" alt="TODO" src="images/bird_headR.png" style="position:absolute; left:360vh; top:-38vh; width:10vh;"/>
+				</div>
+			</div>
+			<div id="lotus_parts" class="scroll">
+				<img id="leaf" alt="TODO" src="images/leaf.png" style="position:absolute; top:40vh; width:30vh; height:45vh;" />
+				<img id="flower1" alt="TODO" src="images/lotus_ani.png" style="position:absolute; top:40vh; width:30vh; height:45vh;" />
+				<img id="flower2" alt="TODO" src="images/lotus_ani_part.png" style="position:absolute; top:40vh; width:30vh; height:45vh;" />
+			</div>
+			<div id="logo" class="pointer_click" >
+				<div id="box_motion"><img alt="TODO" src="images/nna_2.png"/></div>
+				<div id="index">
+					<img alt="TODO" src="images/index.png" style="width:49vh;">
+				</div>
+			</div>
+		</div>
+		<a href="#" class="lotus" id="down" style="position:absolute; left:84vh; top:70vh;">
+			<img id="lotus_ani1" alt="TODO" src="images/lotus_pastel.png" style="width: 13vh;">
+			<img id="lotus_ani2" alt="TODO" src="images/lotus_pastel_water1.png" style="width: 13vh;">
+			<img id="lotus_ani3" alt="TODO" src="images/lotus_pastel_water2.png" style="width: 13vh;">
+			<img id="lotus_ani4" alt="TODO" src="images/lotus_pastel_water3.png" style="width: 13vh;">
+		</a>
+		<div class="fish"  style="position:relative; left:70vh; top:20vh;">
+			<img class="fish1" alt="TODO" src="images/fish_small_side1.png" style="width:10vh" />
+			<img class="fish2" alt="TODO" src="images/fish_small_side2.png" style="width:10vh" />
+		</div>
+		<p id="rights">ⓒ 2015, 정하나 all rights reserved.</p>
+
+		<!--드래그패러랙스-->
+	 	<div id="under"> 	
+	 		<div id="drag02" class="draggable">
+	 			<svg viewBox="0 0 200 200" style="width: 200vh; height: 100vh;">
+	 				<image xlink:href="images/fish1.png" x="0" y="0" height="30" width="30">
+	 					<animateMotion
+	 					 rotate="auto"
+			             path="M0,90 q60,50 100,0 q60,-50 200,0"
+			             begin="0s" dur="6s" repeatCount="indefinite"
+			             />
+	 				</image>
+	 			</svg> 	
+	 			<svg viewBox="0 0 200 200" style="width: 200vh; height: 100vh;">
+	 				<image xlink:href="images/fish2.png" x="0" y="0" height="30" width="30">
+	 					<animateMotion
+	 					 rotate="auto"
+			             path="M0,90 q60,50 100,0 q60,-50 200,0"
+			             dur="6s" repeatCount="indefinite"
+			             />
+	 				</image>
+	 			</svg> 			
+	 		</div>
+	 		<div id="drag01" class="draggable">
+	 			<img alt="TODO" src="images/leaves.png"/>
+	 			<img alt="TODO" src="images/leaves.png"/>
+	 			<img alt="TODO" src="images/leaves.png"/>
+	 			<img alt="TODO" src="images/leaves.png"/>
+	 			<img alt="TODO" src="images/leaves.png"/>
+	 			<img alt="TODO" src="images/leaves.png"/>
+	 		</div>
+			<div id="cover" class="draggable">
+				<div style="position:absolute;top:50vh; left:30vh;">
+					<img alt="TODO" src="images/lotus.png" style="width:30vh; opacity:1;"/>
+				</div>
+				<div style="position:absolute;top:150vh; left:130vh;">
+					<img alt="TODO" src="images/lotus.png" style="width:30vh; opacity:1;"/>
+				</div>
+			</div>
+			<div id="big" class="pointer_drag draggable">
+				<div style="position:absolute;top:50vh; left:20vh;">
+					<img alt="TODO" src="images/lotus.png" data-target="programming" class="subject pointer_click" style="width:20vh;"/>
+				</div>
+				<div style="position:absolute;top:120vh; left:60vh;">
+					<img alt="TODO" src="images/lotus.png" data-target="design" class="subject pointer_click" style="width:18vh;"/>
+				</div>
+				<div style="position:absolute;top:70vh; left:120vh;">
+					<img alt="TODO" src="images/lotus.png" data-target="plan" class="subject pointer_click" style="width:15vh;"/>
+				</div>
+			</div>
+			<div id="programming" class="contents">
+				<a href="#" class="exit">
+					<img alt="TODO" src="images/x.png" style="width:4vh;"/>
+				</a>
+				<img alt="TODO" src="images/cdak.png" class="side">
+				<ul class="designworks">
+					<li><img alt="TODO" src="images/cdak_index.png"></li>
+					<li><img alt="TODO" src="images/careglass.png" id="careglass"></li>
+					<li>
+						<a id="careglass_on" href="http://typepf.dothome.co.kr/careglass.html" style="text-decoration:none; color:white; background-color:red; opacity:0.8;">케어글라스 바로가기</a>
+					</li>
+					<li><img alt="TODO" src="images/careglass_1.png"></li>
+				</ul>
+			</div>	
+			<div id="design" class="contents">
+				<a href="#" class="exit">
+					<img alt="TODO" src="images/x.png" style="width:4vh;"/>
+				</a>
+				<img class="side" alt="TODO" src="images/calligraphy.png" />
+				<ul class="designworks">
+					<li><img src="images/calli_index.png" alt="TODO"></li>
+					<li><img src="images/january.png" alt="TODO"></li>
+					<li><img src="images/february.png" alt="TODO"></li>
+					<li><img src="images/march.png" alt="TODO"></li>
+					<li><img src="images/april.png" alt="TODO"></li>
+					<li><img src="images/may.png" alt="TODO"></li>
+					<li><img src="images/june.png" alt="TODO"></li>
+					<li><img src="images/july.png" alt="TODO"></li>
+					<li><img src="images/august.png" alt="TODO"></li>
+					<li><img src="images/september.png" alt="TODO"></li>
+					<li><img src="images/octorber.png" alt="TODO"></li>
+					<li><img src="images/november.png" alt="TODO"></li>
+					<li><img src="images/december.png" alt="TODO"></li>
+				</ul>
+			</div>
+			<div id="plan" class="contents">
+				<a href="#" class="exit">
+					<img alt="TODO" src="images/x.png" style="width:4vh;"/>
+				</a>
+				<div class="side">
+					<img alt="TODO" src="images/rang.png">
+					<img alt="TODO" src="images/picture.png">
+				</div>
+				<ul class="designworks">
+					<li><img alt="TODO" src="images/rang_index.png"></li>
+					<li><img alt="TODO" src="images/rang_p2.jpg"></li>
+					<li><img alt="TODO" src="images/rang_p1.jpg"></li>
+					<li>
+						<a href="http://www.indiegogo.com/projects/it-s-a-mirror-cle-jewelry-smartwatch-rang#/" style="text-decoration:none; color:white; background-color:red; opacity:0.8;">랑 바로가기</a>
+					</li>
+				</ul>
+			</div>
+			<a href="#" id="up"><img alt="TODO" src="images/up.png" style="width:4vh;"/></a>	
+		</div>
+	
+	<script type="text/javascript" src="js/common.js"></script>
+	</body>
+</html>
