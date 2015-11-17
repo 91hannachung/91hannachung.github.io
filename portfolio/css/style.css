@@ -106,7 +106,7 @@ nav ul li p.copyright {
 	margin-top:10vh;
 	width:15vh;
 	height:15vh;
-	background-image:url('../images/face_4.png');
+	background-image:url('../images/face_4.PNG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 100px;
@@ -270,19 +270,19 @@ article {
 	border-radius: 10px;
 }
 .content_image02{
-	background-image: url('../images/orientalism.png');
+	background-image: url('../images/orientalism.PNG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 10px;
 }
 .content_image03{
-	background-image: url('../images/hayao.png');
+	background-image: url('../images/hayao.PNG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 10px;
 }
 .content_image04{
-	background-image: url('../images/rang_mini.png');
+	background-image: url('../images/rang_mini.PNG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 10px;
@@ -297,7 +297,7 @@ article {
 	line-height: 20vh;
 }
 .content_image06{
-	background-image: url('../images/alice_game.png');
+	background-image: url('../images/alice_game.PNG');
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-radius: 10px;
